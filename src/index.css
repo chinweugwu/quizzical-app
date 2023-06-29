@@ -7,7 +7,122 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: #e5e5e5;
+  padding: 5vh 0 5vh 0;
 }
+
+.loading-h1 {
+  margin-top: 40vh;
+}
+
+main {
+  width: 30%;
+  height: 100%;
+  background-color: #14213d;
+  margin: 0 auto;
+  padding: 0.5% 5%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.question-page {
+  text-align: center;
+}
+
+.question-body {
+  margin: 2% auto 0 auto;
+}
+
+aside {
+  width: 100%;
+  display: flex;
+}
+
+h3, h4{
+  margin-top: 0;
+  color: #fca311;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 15vw;
+  height: 6vh;
+  border: none;
+  margin-right: 2%;
+  border-radius: 12px;
+  font-size: 12px;
+  border: 1px solid #14213d;
+  cursor: pointer;
+}
+
+.answer-button {
+  color: #14213d;
+  background-color: #f2e9e4;
+}
+
+.answer-button-clicked {
+  background-color: #14213d;
+  color: #f2e9e4;
+}
+
+.prepare-scores {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1vh;
+}
+
+#check-button {
+  margin: 2vh auto;
+  color: #14213d;
+  background-color: #f2e9e4;
+  width: 25vw;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#check-button:hover {
+  background-color: #7c9bdf;
+}
+
+.main-submit {
+  height: 80vh;
+  margin-top: 5vh;
+}
+
+.h1-submit{
+  color: #fca311;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  font-size: 30px;
+}
+
+h2, h1 {
+  color: #fca311;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.result-div {
+  text-align: center;
+}
+
+
+
